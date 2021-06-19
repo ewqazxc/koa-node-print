@@ -1,0 +1,32 @@
+{
+  "name": "koa-node-print",
+  "version": "1.0.0",
+  "description": "Node 调用打印机直接打印",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ewqazxc/koa-node-print.git"
+  },
+  "keywords": [
+    "koa",
+    "node",
+    "打印机"
+  ],
+  "author": "ewqazxc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ewqazxc/koa-node-print/issues"
+  },
+  "homepage": "https://github.com/ewqazxc/koa-node-print#readme",
+  "dependencies": {
+    "koa": "^2.13.1",
+    "koa-router": "^10.0.0",
+    "koa2-cors": "^2.0.6",
+    "node-fetch": "^2.6.1",
+    "node-pdf-printer": "^1.1.4"
+  }
+}
